@@ -1,0 +1,26 @@
+# Ignore PDF files
+*.pdf
+
+# Ignore .txt files (except test cases which are needed)
+*.txt
+!test_cases/*.txt
+
+# Ignore macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore compiled binaries
+alice
+bob
+*.o
+*.exe
+*.out
+
+# Ignore temporary files
+*.tmp
+*.temp
