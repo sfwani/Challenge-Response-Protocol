@@ -156,7 +156,7 @@
      }
      
      int cipher_len, sig_len, key_len;
-     char hex_output[200];
+     char hex_output[512];
      
      // Step 1: Read ciphertext, signature, shared key, counter, and nonce
      unsigned char* ciphertext_hex = Read_File(argv[1], &cipher_len);

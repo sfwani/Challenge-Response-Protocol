@@ -156,7 +156,7 @@
      }
      
      int msg_len, key_len;
-     char hex_output[200];
+     char hex_output[512];
      
      // Step 1: Read message, shared key, counter, and nonce
      unsigned char* message = Read_File(argv[1], &msg_len);
